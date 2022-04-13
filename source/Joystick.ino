@@ -54,7 +54,7 @@ void joystickMove(int X, int Y)
   {
     if (!isWpressed)
     {
-      Keyboard.press('W');
+      Keyboard.press('w');
       isWpressed = true;
     }
   }
@@ -62,14 +62,14 @@ void joystickMove(int X, int Y)
   {
     if (isWpressed)
     {
-      Keyboard.release('W');
+      Keyboard.release('w');
       isWpressed = false;
-      Keyboard.print('W');
+      Keyboard.print('w');
     }
   }
   else if (isWpressed)
   {
-    Keyboard.release('W');
+    Keyboard.release('w');
     isWpressed = false;
   }
 
@@ -77,7 +77,7 @@ void joystickMove(int X, int Y)
   {
     if (!isApressed)
     {
-      Keyboard.press('A');
+      Keyboard.press('a');
       isApressed = true;
     }
   }
@@ -85,14 +85,14 @@ void joystickMove(int X, int Y)
   {
     if (isApressed)
     {
-      Keyboard.release('A');
+      Keyboard.release('a');
       isApressed = false;
-      Keyboard.print('A');
+      Keyboard.print('a');
     }
   }
   else if (isApressed)
   {
-    Keyboard.release('A');
+    Keyboard.release('a');
     isApressed = false;
   }
   
@@ -100,7 +100,7 @@ void joystickMove(int X, int Y)
   {
     if (!isSpressed)
     {
-      Keyboard.press('S');
+      Keyboard.press('s');
       isSpressed = true;
     }
   }
@@ -108,14 +108,14 @@ void joystickMove(int X, int Y)
   {
     if (isSpressed)
     {
-      Keyboard.release('S');
+      Keyboard.release('s');
       isSpressed = false;
-      Keyboard.print('S');
+      Keyboard.print('s');
     }
   }
   else if (isSpressed)
   {
-    Keyboard.release('S');
+    Keyboard.release('s');
     isSpressed = false;
   }
  
@@ -123,7 +123,7 @@ void joystickMove(int X, int Y)
   {
     if (!isDpressed)
     {
-      Keyboard.press('D');
+      Keyboard.press('d');
       isDpressed = true;
     }
   }
@@ -131,15 +131,14 @@ void joystickMove(int X, int Y)
   {
     if (isDpressed)
     {
-      Keyboard.release('D');
+      Keyboard.release('d');
       isDpressed = false;
-      Keyboard.print('D');
+      Keyboard.print('d');
     }
   }
   else if (isDpressed)
   {
-    Keyboard.release('D');
+    Keyboard.release('d');
     isDpressed = false;
   }
 }
-
